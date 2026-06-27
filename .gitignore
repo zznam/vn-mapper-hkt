@@ -1,0 +1,106 @@
+/db
+.pnpm-store
+__pycache__/
+dev-notes
+.env
+.env.expo.*
+.env.prod
+.env.production
+/hayai/dist*
+.DS_Store
+/hayai/cypress/screenshots
+/hayai/cypress/videos
+/hayai/public/audio/words
+google-hayai-local-creds.json
+google-hayai-prod-creds.json
+# nx
+# compiled output
+dist
+tmp
+out-tsc
+
+# dependencies
+node_modules
+modules/expo-audio-streaming/build/
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+coverage/
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+Thumbs.db
+
+.nx/cache
+.nx/workspace-data
+.idea
+
+
+mongo/
+*-debug.log
+firebase-service-account.json
+/hayaiextension/test-results/
+/hayaiextension/playwright/test-results/
+/hayaiextension/playwright-report/
+/hayai/playwright/test-results/
+
+# Chrome debug profile for Netflix extraction
+/.chrome-debug-profile/
+/scripts/manual-netflix-durations.json
+.cursor/rules/nx-rules.mdc
+.github/instructions/nx.instructions.md
+
+# local debug files
+debug/*.md
+plugins/**/android/.gradle
+plugins/**/android/build
+
+GoogleService-Info.plist
+google-services.json
+
+# Expo
+node_modules/
+.expo/
+.yarn/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+cache/
+
+
+/hayai/scripts/generate-chat-scripts/output/
+
+.claude/*.lock
+
+# Superpowers spec/plan docs - local only
+docs/superpowers/
+
+modules/expo-audio-streaming/android/build
+hayai/android/.gradle
